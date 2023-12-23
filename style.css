@@ -797,21 +797,26 @@ footer {
   .project{
     width: 100%;
   }
+
+  .project-details{
+    padding: 4%;
+    gap: 0px;
+  }
   .project-details h3 {
     font-size: 18px;
-    margin: 0;
+    margin-top: 8px;
   }
 
   .project-details h4{
     font-size: 12px;
   }
   .project-details p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.1;
   }
 
   .project-details .project-link a {
     font-size: 12px;
-    margin: 0;
+    margin-right: 10px;
   }
 }
