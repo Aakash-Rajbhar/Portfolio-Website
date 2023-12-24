@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  scrollbar-width: thin;
 }
 
 :root {
@@ -570,6 +571,19 @@ footer {
   font-size: 16px;
   color: var(--light_color);
 }
+
+.email{
+  display: flex;
+  gap: 10px;
+}
+.email i{
+  color: var(--light_color);
+}
+
+.email-id{
+  font-weight: normal;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .hero {
