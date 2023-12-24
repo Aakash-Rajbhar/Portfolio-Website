@@ -239,8 +239,7 @@ nav .logo a {
   width: 80%;
   border-radius: 50%;
   border: 6px solid var(--accent_color);
-  animation: jellyLevitate 5s infinite;
-  animation: fade-down 600ms ease;
+  animation: jellyLevitate 5s infinite, fade-down 600ms ease;
 }
 
 @keyframes jellyLevitate {
