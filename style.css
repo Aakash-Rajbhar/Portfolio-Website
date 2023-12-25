@@ -24,6 +24,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x:hidden
 }
 
 .navbar {
@@ -567,6 +568,11 @@ footer {
   text-decoration: underline;
 }
 
+.copyright-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .copyright-text p {
   font-size: 16px;
   color: var(--light_color);
